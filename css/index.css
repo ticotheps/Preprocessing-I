@@ -207,6 +207,7 @@ body {
   /* Images */
 }
 .section-top h1 {
+  font-family: Georgia, "Times New Roman", serif;
   font-size: 6.5rem;
 }
 .section-top h2 {
@@ -240,6 +241,7 @@ body {
   /* Images */
 }
 .section-middle h1 {
+  font-family: Georgia, "Times New Roman", serif;
   font-size: 6.5rem;
 }
 .section-middle h2 {
@@ -276,6 +278,7 @@ body {
   /* Images */
 }
 .section-bottom h1 {
+  font-family: Georgia, "Times New Roman", serif;
   font-size: 6.5rem;
 }
 .section-bottom h2 {
@@ -309,6 +312,7 @@ body {
   /* Images */
 }
 #footer h1 {
+  font-family: Georgia, "Times New Roman", serif;
   font-size: 6.5rem;
 }
 #footer h2 {
