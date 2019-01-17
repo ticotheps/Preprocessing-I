@@ -151,6 +151,9 @@ body {
 .curved-border {
   border-radius: 0.5rem;
 }
+.georgia-font {
+  font-family: Georgia, "Times New Roman", serif;
+}
 /* General Styles */
 /* 10px if the browser was set to 16px */
 /* 1rem = 10px at “medium” browser settings */
@@ -204,23 +207,46 @@ body {
   justify-content: center;
   align-items: center;
   background-color: lightgray;
-  /* Images */
+  /* Image */
 }
 .section-top h1 {
   font-family: Georgia, "Times New Roman", serif;
   font-size: 6.5rem;
 }
+@media (max-width: 50rem) {
+  .section-top h1 {
+    font-size: 4.5rem;
+  }
+}
 .section-top h2 {
+  font-family: Georgia, "Times New Roman", serif;
   font-size: 3rem;
 }
-.section-top h3 {
-  font-size: 2rem;
+@media (max-width: 50rem) {
+  .section-top h2 {
+    font-size: 2.2rem;
+  }
 }
-.section-top .office-image {
+.section-top h3 {
+  font-size: 2.1rem;
+  color: red;
+}
+@media (max-width: 50rem) {
+  .section-top h3 {
+    font-size: 1.8rem;
+  }
+}
+.section-top figure {
   display: flex;
   flex-direction: row;
-  border-radius: 50%;
-  width: 30rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 28rem;
+}
+.section-top figure .office-image {
+  border-radius: 0.5rem;
+  width: 31rem;
   height: auto;
   margin: 2rem;
 }
@@ -238,23 +264,46 @@ body {
   justify-content: center;
   align-items: center;
   background-color: lightgray;
-  /* Images */
+  /* Image */
 }
 .section-middle h1 {
   font-family: Georgia, "Times New Roman", serif;
   font-size: 6.5rem;
 }
+@media (max-width: 50rem) {
+  .section-middle h1 {
+    font-size: 4.5rem;
+  }
+}
 .section-middle h2 {
+  font-family: Georgia, "Times New Roman", serif;
   font-size: 3rem;
 }
-.section-middle h3 {
-  font-size: 2rem;
+@media (max-width: 50rem) {
+  .section-middle h2 {
+    font-size: 2.2rem;
+  }
 }
-.section-middle .office-image {
+.section-middle h3 {
+  font-size: 2.1rem;
+  color: red;
+}
+@media (max-width: 50rem) {
+  .section-middle h3 {
+    font-size: 1.8rem;
+  }
+}
+.section-middle figure {
   display: flex;
   flex-direction: row;
-  border-radius: 50%;
-  width: 30rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 28rem;
+}
+.section-middle figure .office-image {
+  border-radius: 0.5rem;
+  width: 31rem;
   height: auto;
   margin: 2rem;
 }
@@ -264,7 +313,9 @@ body {
   }
 }
 .section-middle h4 {
+  font-family: Georgia, "Times New Roman", serif;
   font-size: 2rem;
+  color: #9933ff;
 }
 /* .section-bottom container */
 .section-bottom {
@@ -275,23 +326,46 @@ body {
   justify-content: center;
   align-items: center;
   background-color: lightgray;
-  /* Images */
+  /* Image */
 }
 .section-bottom h1 {
   font-family: Georgia, "Times New Roman", serif;
   font-size: 6.5rem;
 }
+@media (max-width: 50rem) {
+  .section-bottom h1 {
+    font-size: 4.5rem;
+  }
+}
 .section-bottom h2 {
+  font-family: Georgia, "Times New Roman", serif;
   font-size: 3rem;
 }
-.section-bottom h3 {
-  font-size: 2rem;
+@media (max-width: 50rem) {
+  .section-bottom h2 {
+    font-size: 2.2rem;
+  }
 }
-.section-bottom .office-image {
+.section-bottom h3 {
+  font-size: 2.1rem;
+  color: red;
+}
+@media (max-width: 50rem) {
+  .section-bottom h3 {
+    font-size: 1.8rem;
+  }
+}
+.section-bottom figure {
   display: flex;
   flex-direction: row;
-  border-radius: 50%;
-  width: 30rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 28rem;
+}
+.section-bottom figure .office-image {
+  border-radius: 0.5rem;
+  width: 31rem;
   height: auto;
   margin: 2rem;
 }
@@ -299,6 +373,16 @@ body {
   .section-bottom {
     max-width: 50rem;
   }
+}
+.section-bottom h5 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2rem;
+  color: blue;
+}
+.section-bottom h6 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2rem;
+  color: #9933ff;
 }
 /* footer */
 #footer {
@@ -309,23 +393,46 @@ body {
   justify-content: center;
   align-items: center;
   background-color: lightgray;
-  /* Images */
+  /* Image */
 }
 #footer h1 {
   font-family: Georgia, "Times New Roman", serif;
   font-size: 6.5rem;
 }
+@media (max-width: 50rem) {
+  #footer h1 {
+    font-size: 4.5rem;
+  }
+}
 #footer h2 {
+  font-family: Georgia, "Times New Roman", serif;
   font-size: 3rem;
 }
-#footer h3 {
-  font-size: 2rem;
+@media (max-width: 50rem) {
+  #footer h2 {
+    font-size: 2.2rem;
+  }
 }
-#footer .office-image {
+#footer h3 {
+  font-size: 2.1rem;
+  color: red;
+}
+@media (max-width: 50rem) {
+  #footer h3 {
+    font-size: 1.8rem;
+  }
+}
+#footer figure {
   display: flex;
   flex-direction: row;
-  border-radius: 50%;
-  width: 30rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 28rem;
+}
+#footer figure .office-image {
+  border-radius: 0.5rem;
+  width: 31rem;
   height: auto;
   margin: 2rem;
 }
@@ -333,4 +440,8 @@ body {
   #footer {
     max-width: 50rem;
   }
+}
+#footer h5 {
+  font-family: Georgia, "Times New Roman", serif;
+  color: blue;
 }
