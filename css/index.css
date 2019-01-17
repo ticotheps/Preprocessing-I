@@ -135,6 +135,22 @@ body {
   height: 100%;
 }
 /* Variables */
+/* Mixins */
+.flex-box-row {
+  display: flex;
+  flex-direction: row;
+}
+.flex-box-column {
+  display: flex;
+  flex-direction: column;
+}
+.flex-box-centered {
+  justify-content: center;
+  align-items: center;
+}
+.curved-border {
+  border-radius: 0.5rem;
+}
 /* General Styles */
 /* 10px if the browser was set to 16px */
 /* 1rem = 10px at “medium” browser settings */
@@ -148,6 +164,7 @@ body {
 /* Header */
 .body-header {
   display: flex;
+  flex-direction: row;
   justify-content: flex-end;
   /* Navigation Bar */
 }
@@ -173,14 +190,77 @@ body {
 }
 /* .section-top container */
 .section-top {
+  width: 80rem;
+  border-radius: 0.5rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  /* Images */
 }
-/* Images */
-.office-image {
+.section-top .office-image {
+  display: flex;
+  flex-direction: row;
+  border-radius: 50%;
   width: 30rem;
   height: auto;
+  margin: 2rem;
 }
 /* .section-middle container */
+.section-middle {
+  width: 80rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  /* Images */
+}
+.section-middle .office-image {
+  display: flex;
+  flex-direction: row;
+  border-radius: 50%;
+  width: 30rem;
+  height: auto;
+  margin: 2rem;
+}
 /* .section-bottom container */
+.section-bottom {
+  width: 80rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  /* Images */
+}
+.section-bottom .office-image {
+  display: flex;
+  flex-direction: row;
+  border-radius: 50%;
+  width: 30rem;
+  height: auto;
+  margin: 2rem;
+}
 /* footer */
+#footer {
+  width: 80rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  /* Images */
+}
+#footer .office-image {
+  display: flex;
+  flex-direction: row;
+  border-radius: 50%;
+  width: 30rem;
+  height: auto;
+  margin: 2rem;
+}
